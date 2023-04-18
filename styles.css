@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    Margin: 0;
+    Padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+
+}
+
+li {
+    color: red;
+    list-style: none;
+}
