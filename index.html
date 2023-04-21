@@ -25,26 +25,46 @@
 
         </nav>
     </header>
-    <div id="topimg"></div>
     <main class="gridContainer">
         <div class="empty"></div>
         <div class="mainContent"></div>
-        <form action="">
-            <label for="fName">Förnamn:</label><br>
-            <input type="text" id="fName" name="fName" placeholder="Stefan" required><br>
-            <label for="lName">Efternamn:</label><br>
-            <input type="text" id="lName" name="lName" placeholder="Andersson" required><br>
-            <label for="age">Födelsedatum:</label><br>
-            <input type="date" id="age" name="age" style="width:183px"><br>
-            <label for="userName">Användarnamn:</label><br>
-            <input type="text" id="userName" name="userName" placeholder="ex.StefanAndersson73" required><br>
-            <label for="email">Email adress:</label><br>
-            <input type="text" id="email" name="email" placeholder="stefan.andersson73@outlook.com" required><br>
-            <label for="password">Lösenord</label><br>
-            <input type="password" id="password" name="password" required placeholder="min. 6 tecken"><br>
-            <input type="submit" value="Bli en entusiast!"><br>
-        </form>
+        <div class="form">
+            <div class="formTitle">Välkommen</div>
+            <div class="formSubtitle">Skapa ditt konto!</div>
+            <div class="inputContainer firstBox">
+                <input id="firstname" class="input" type="text" placeholder=" " />
+                <div class="cut"></div>
+                <label for="firstname" class="placeholder">Förnamn</label>
+            </div>
+            <div class="inputContainer secondBox">
+                <input id="lastname" class="input" type="text" placeholder=" " />
+                <div class="cut"></div>
+                <label for="lastname" class="placeholder">Efternamn</label>
+            </div>
+            <div class="inputContainer secondBox">
+                <input id="email" class="input" type="text" placeholder=" " />
+                <div class="cut cutShort"></div>
+                <label for="email" class="placeholder">Email</label>
+            </div>
+            <div class="inputContainer secondBox">
+                <input type="text" class="input" id="userName" name="userName" placeholder=" " />
+                <div class="cut cutLong"></div>
+                <label for="userName" class="placeholder">Användarnamn</label>
+            </div>
+            <div class="inputContainer secondBox">
+                <input type="password" class="input" id="password" name="password" required placeholder=" " />
+                <div class="cut cutMedium"></div>
+                <label for="password" class="placeholder">min.6 tecken</label>
+            </div>
+            <div class="inputContainer secondBox">
+                <input type="date" class="input" id="age" name="age" placeholder=" " />
+                <div class="cut cutLong"></div>
+                <label for="date" class="placeholder">Födelsedatum</label>
+            </div>
+            <button type="text" class="submit">Registrera dig!</button>
+        </div>
         <div class="empty"></div>
+        <div class="textInfo"></div>
     </main>
     <footer>
         <div class="bottomContainer">
