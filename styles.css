@@ -8,14 +8,40 @@ body {
     height: 100vh;
 }
 
+#logo {
+    font-size: 7vh;
+    font-weight: bold;
+    font-style: italic;
+    width: 25vw;
+    align-self: center;
+    text-align: center;
+    color: #970f11;
+}
+
+.navContainer {
+    display: flex;
+
+}
+
 ul {
     display: flex;
     justify-content: space-evenly;
     background-color: aqua;
+    width: 75vw;
+    text-align: center;
 
 }
 
+a {
+    display: flex;
+    align-self: center;
+}
+
 li {
-    color: red;
+
     list-style: none;
+    display: flex;
+    justify-items: center;
+    height: 10vh;
+    text-align: center;
 }
