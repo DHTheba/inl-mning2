@@ -26,7 +26,7 @@ body {
 ul {
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color: white;
     width: 75vw;
     text-align: center;
 
@@ -35,6 +35,23 @@ ul {
 a {
     display: flex;
     align-self: center;
+    text-decoration: none;
+    color: black;
+}
+
+li:nth-child(3) {
+    color: #06b;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #970f11;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #970f11;
+    transition: 0.1s;
+    color: #970f11;
+    font-weight: bold;
 }
 
 li {
@@ -55,12 +72,22 @@ li {
 
 }
 
-.mainContent {
+.imageOne {
     background-image: url(./bilder/bilcollage.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: #15172b;
+
+}
+
+.imageTwo {
+    background-image: url(./bilder/th-960885302.jpg);
+    background-repeat: no-repeat;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #15172b;
+    background-position: center;
 }
 
 .form {
@@ -75,7 +102,7 @@ li {
 }
 
 .textInfo {
-    background-color: #15172b;
+
     grid-column: 2/3;
     grid-row: 2/3;
 }
