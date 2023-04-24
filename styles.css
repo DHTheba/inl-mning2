@@ -39,12 +39,14 @@ a {
     color: black;
 }
 
-li:nth-child(3) {
-    color: #06b;
+li:nth-child(3)>a {
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: #970f11;
+    color: #970f11;
 }
+
+
 
 a:hover {
     text-decoration: underline;
@@ -221,4 +223,10 @@ li {
 
 .submit:active {
     background-color: #06b;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
