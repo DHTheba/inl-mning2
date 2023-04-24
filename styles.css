@@ -230,3 +230,52 @@ li {
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width: 450px) {
+    .navContainer {
+        flex-direction: column;
+    }
+
+    #logo {
+        align-self: flex-start;
+        margin-left: 20vw;
+        margin-top: 2vh;
+    }
+
+    ul {
+        align-self: center;
+
+    }
+
+    li:nth-child(3)>a {
+        text-decoration: none;
+        color: black;
+        font-weight: normal;
+    }
+
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .form {
+        height: 1000px;
+    }
+
+    .footer {
+        height: 10vh;
+        position: absolute;
+    }
+
+
+
+
+    .formTitle {
+        text-align: center;
+    }
+
+    .formSubtitle {
+        text-align: center;
+    }
+}
